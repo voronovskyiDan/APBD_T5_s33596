@@ -6,11 +6,9 @@ namespace APBD_T5_s33596.Models
     {
         public int Id { get; set; }
 
-        [Required]
         [MinLength(1)]
         public string Name { get; set; } = String.Empty;
 
-        [Required]
         [MinLength(1)]
         public string BuildingCode { get; set; } = String.Empty;
         public int Floor { get; set; }
